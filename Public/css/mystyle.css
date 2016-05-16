@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+/* 上传btn修改样式 */
+.uploadify-button {
+    border: 1px solid #F3EEEE;
+    background-color:rgba(102, 174, 236, 0.91);
+    line-height: 30px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.uploadify-button:hover {
+    background-color:#EF5959; 
+}
+.tool_tip {
+    float: left;
+    padding-left: 10px;
+}
+.myTool{
+background: rgba(143,186,255,1);
+background: -moz-linear-gradient(top, rgba(143,186,255,1) 0%, rgba(231,239,254,1) 45%, rgba(165,191,233,1) 83%, rgba(165,191,233,1) 98%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,186,255,1)), color-stop(45%, rgba(231,239,254,1)), color-stop(83%, rgba(165,191,233,1)), color-stop(98%, rgba(165,191,233,1)));
+background: -webkit-linear-gradient(top, rgba(143,186,255,1) 0%, rgba(231,239,254,1) 45%, rgba(165,191,233,1) 83%, rgba(165,191,233,1) 98%);
+background: -o-linear-gradient(top, rgba(143,186,255,1) 0%, rgba(231,239,254,1) 45%, rgba(165,191,233,1) 83%, rgba(165,191,233,1) 98%);
+background: -ms-linear-gradient(top, rgba(143,186,255,1) 0%, rgba(231,239,254,1) 45%, rgba(165,191,233,1) 83%, rgba(165,191,233,1) 98%);
+background: linear-gradient(to bottom, rgba(143,186,255,1) 0%, rgba(231,239,254,1) 45%, rgba(165,191,233,1) 83%, rgba(165,191,233,1) 98%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fbaff', endColorstr='#a5bfe9', GradientType=0 );}

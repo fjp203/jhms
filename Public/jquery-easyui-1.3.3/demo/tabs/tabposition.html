@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tab Position - jQuery EasyUI Demo</title>
+	<link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="../demo.css">
+	<script type="text/javascript" src="../../jquery.min.js"></script>
+	<script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+</head>
+<body>
+	<h2>Tab Position</h2>
+	<div class="demo-info">
+		<div class="demo-tip icon-tip"></div>
+		<div>Click the 'position' drop-down list and select an item to change the tab position.</div>
+	</div>
+	<div style="margin:10px 0;">
+		<span>Position:</span>
+		<select onchange="$('#tt').tabs({tabPosition:this.value})">
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</select>
+	</div>
+	<div id="tt" class="easyui-tabs" style="width:700px;height:250px">
+		<div title="About" style="padding:10px">
+			<p style="font-size:14px">jQuery EasyUI framework help you build your web page easily.</p>
+			1． 顾客特殊要求在工艺文件中100%落实。 工艺员认真填写技术 协议落实跟单，保证顾客特殊要求的落实。调试工艺员协助 质量部在车辆下线后提前介入技术协议的核实，提前反馈解 决问题，避免影响调试进度。
+    2． 现场工艺服务专人负责，定期轮换, 及时处理生产中的突发 技术、工艺问题，一般问题5 分钟内到达现场，10 分钟内明 确解决方案，遇有重大事项及时向科室负责人报告处理,当 日确定技术方案。
+    3． 专人配合过程审核小组及静态评审小组，对发现的相关工艺 问题及时拿出解决方案，并按节点完成相关整改、固化工艺 及技术交底。
+   4． 做好技术问题收集、反馈工作，确保已发生问题归零处理， 避免重复发生，确保生产反馈问题的迅速解决。
+    5． 对于装配工提交的经车间主任签字的《定额工时反馈意见 表》 、 《重复性技术问题反馈表》 ，定额工时管理人员及相关 主管工艺员2 日内须对反馈意见进行回复。
+   6． 定期召开生产-技术对接会，对各班组提出的各项技术问题 记录并安排专人负责跟进落实解决， 做到100%落实并书面回 复。
+
+			<ul>
+				<li>easyui is a collection of user-interface plugin based on jQuery.</li>
+				<li>easyui provides essential functionality for building modem, interactive, javascript applications.</li>
+				<li>using easyui you don't need to write many javascript code, you usually defines user-interface by writing some HTML markup.</li>
+				<li>complete framework for HTML5 web page.</li>
+				<li>easyui save your time and scales while developing your products.</li>
+				<li>easyui is very easy but powerful.</li>
+				
+			</ul>
+		</div>
+		<div title="My Documents" style="padding:10px">
+			<ul class="easyui-tree" data-options="url:'../tabs/tree_data1.json',animate:true"></ul>
+		</div>
+		<div title="Help" data-options="iconCls:'icon-help',closable:true" style="padding:10px">
+			This is the help content.
+		</div>
+	</div>
+
+</body>
+</html>

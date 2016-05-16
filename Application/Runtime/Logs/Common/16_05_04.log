@@ -1,0 +1,30 @@
+[ 2016-05-04T15:05:48+08:00 ] 127.0.0.1 /jhms/__APP__/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-05-04T15:05:48+08:00 ] 127.0.0.1 /jhms/__APP__/Home/Index/read1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-05-04T15:05:56+08:00 ] 127.0.0.1 /jhms/__APP__/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-05-04T15:05:56+08:00 ] 127.0.0.1 /jhms/__APP__/Home/Index/read1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-05-04T15:07:06+08:00 ] 127.0.0.1 /jhms/__APP__/Home/Index/read1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+ERR: 无法加载模块:__APP__
+

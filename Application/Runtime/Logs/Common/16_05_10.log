@@ -1,0 +1,270 @@
+[ 2016-05-10T15:05:06+08:00 ] 127.0.0.1 /jhms/get_data.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+ERR: 无法加载模块:Get_data
+
+[ 2016-05-10T15:21:13+08:00 ] 127.0.0.1 /jhms/get_data.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003146s ]
+ERR: 无法加载模块:Get_data
+
+[ 2016-05-10T15:21:14+08:00 ] 127.0.0.1 /jhms/get_data.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+ERR: 无法加载模块:Get_data
+
+[ 2016-05-10T15:55:29+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009419s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T15:55:33+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T15:56:06+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006309s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T15:56:39+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T15:57:00+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011031s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T15:57:29+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002262s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T15:58:49+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007844s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:02:36+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:02:39+08:00 ] 127.0.0.1 /jhms/datagrid_data.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012410s ]
+ERR: 无法加载模块:Datagrid_data
+
+[ 2016-05-10T16:03:15+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:04:32+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:05:18+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:07:03+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:08:28+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:08:48+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006307s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:12:42+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007106s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:13:03+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006855s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:33:17+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:36:21+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:36:37+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:36:51+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:37:22+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:37:52+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002602s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:38:32+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:39:45+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:41:08+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003895s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:42:58+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:43:19+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:43:47+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007169s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:46:42+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:47:14+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005150s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:48:36+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:48:57+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:53:46+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:54:38+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T16:55:24+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006945s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T17:01:16+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T17:04:33+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T17:05:10+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000894s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002323s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T17:12:00+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T17:15:14+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-10T17:16:04+08:00 ] 127.0.0.1 /jhms/Public/app/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+ERR: 无法加载模块:Public
+
