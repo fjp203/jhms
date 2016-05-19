@@ -436,7 +436,12 @@ infoData.rows.push(obj);
 }
 
 $('#info').datagrid('loadData', infoData);
-$('#cc').layout('expand','east');
+console.log('实验');
+
+console.log($("#cc").layout("panel", "east"));
+//$('#cc').layout('expand','east');
+
+
     }
 });
 $("#dg").datagrid({

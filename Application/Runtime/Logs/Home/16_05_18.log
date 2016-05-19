@@ -1,0 +1,14 @@
+[ 2016-05-18T08:40:30+08:00 ] 127.0.0.1 /jhms/home/index/zclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019234s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.5445s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 247 行.
+NOTIC: [8] Undefined variable: totalCount E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.116777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.116935s ]
+
