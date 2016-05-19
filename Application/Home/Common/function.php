@@ -10,11 +10,11 @@ function filterTxt($reg,$content){
 }
 
 //
-//全盘写入整车公告列表
+//获得整车公告列表数据
 //
 function allZc(){
 	set_time_limit(0);
-	$zclist = M("zclist");
+// 	$zclist = M("zclist");
 	$page=1;
 	$start=0;
 	$limit=400;
@@ -105,6 +105,12 @@ function allZc(){
 	
 // 	var_dump($data1);
 	
-	$data=$data1['topics'];
-	$zclist->addAll($data);
+// 	$data=$data1['topics'];
+// 	if($data=$zclist->select()){
+// 		echo "一样";
+// 	}else{
+// 		echo "不一样";
+// 	}
+// 	$zclist->addAll($data);
+return $data1['topics'];
 }

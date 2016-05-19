@@ -168,14 +168,30 @@ $data['xdxyzt'] = $arr[$i][30];
     //公告更新
     public function ggUpdate(){
     	$zclist = M("zclist");
-    	$num=count($zclist->select());
-    	if($num>0){
+     	$num=count($zclist->select());
+     	$arr=array();
+     	if($num>0){
     		//对比更新
+//     		var_dump($zclist->field('tarid')->select());
+$a=allZc();
+$b=$zclist->field('tarid')->select();
+    		for($i=0;$i<count($a);$i++){
+    			$arr[$i]['tarid']=$b[$i]['tarid'];
+    		}
+    		var_dump($arr);
+    		echo "\n";
+    	
+    		if($a==$b){
+    			echo "一样";
+    		}else{
+    			echo "一样1";
+    		}
     	}else{
     		
-    		allZc();
-    	}
-//     	allZc();
+     		$zclist->addAll(allZc());
+     	}
+    	//var_dump(allZc());
+    	
     }
  
 }

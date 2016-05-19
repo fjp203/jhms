@@ -2786,3 +2786,251 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001875s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002114s ]
 
+[ 2016-05-19T16:55:32+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003289s ]
+
+[ 2016-05-19T16:57:45+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-05-19T16:57:51+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2016-05-19T16:58:28+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2016-05-19T17:00:59+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0118s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035325s ]
+
+[ 2016-05-19T17:01:39+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2016-05-19T17:02:05+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0095s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-05-19T17:02:57+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0096s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0095s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2016-05-19T17:04:11+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0095s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0097s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2016-05-19T17:05:17+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0113s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2016-05-19T17:06:04+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0106s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0113s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2016-05-19T17:10:24+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: tarid E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0107s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2016-05-19T17:11:31+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0108s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003699s ]
+
+[ 2016-05-19T17:15:16+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0102s ]
+
+[ 2016-05-19T17:15:42+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: tarid E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 176 行.
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002602s ]
+
+[ 2016-05-19T17:19:10+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0093s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2016-05-19T17:19:57+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0110s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2016-05-19T17:20:24+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0091s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
