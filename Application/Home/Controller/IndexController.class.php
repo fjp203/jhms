@@ -218,25 +218,44 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
     }
     public function gginfo(){
     	
-    	
+
+    	$id="NTAwMzMx";
+    	$cookie_file=tempnam('./temp', 'cookie');
     	$ch = curl_init();
+    	 
+    	$url = "http://www.chinacar.com.cn/ggcx_new/search_view.asp?id=".$id;
     	
-    	$post_fields="password=6988753&loginname=sq0107&returnurl=www.autoinfo.org.cn%2Fapp%2Fxcpgg%2Fxcp_index.jsp&chkRememberMe=on&hostid=00-19-DB-FD-BF-17%2C&flg_login=Y&jhostid=00-19-DB-FD-BF-17%2C";
-    	
-//     	$cookie_file="ASPSESSIONIDQSCBCBRR=PJGAHPEDLJEKNPOOCPICNDEM; ASPSESSIONIDAQDCABTT=IOLFPAFDNPMMLNDJEDHBEPKE; clcp%5Flist=500328%7C460033%7C494065%7C500817%7C506458%7C198214%7C481174%7C; AJSTAT_ok_pages=18; AJSTAT_ok_times=3; a0402_pages=18; a0402_times=3; Hm_lvt_6c1a81e7deb77ce536977738372f872a=1463465650,1463714342,1463726689; Hm_lpvt_6c1a81e7deb77ce536977738372f872a=1463726726";
-     	$url = "http://www.chinacar.com.cn/ggcx_new/search_param.asp";
-     	curl_setopt($ch, CURLOPT_POST,1);
-    	curl_setopt($ch, CURLOPT_HEADER,0);
+    	curl_setopt($ch, CURLOPT_HTTPHEADER,0);
     	curl_setopt($ch, CURLOPT_URL, $url);
     	curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);//1不直接打印，0直接打印
     	
-    	curl_setopt($ch, CURLOPT_HTTPHEADER,array("application/x-www-form-urlencoded;
-     			charset=utf-8","Content-length: ".strlen($post_fields)));
-//     	curl_setopt($ch, CURLOPT_COOKIEFILE,$cookie_file);
+    	curl_setopt($ch, CURLOPT_COOKIEJAR,$cookie_file);
     	$data=curl_exec($ch);//执行
     	
     	curl_close($ch);
     	
+    	
+    	
+    	
+
+    	
+    	$ch = curl_init();
+    	
+   	$url = "http://www.chinacar.com.cn/ggcx_new/search_param.asp?id=".$id;
+
+    	curl_setopt($ch, CURLOPT_HTTPHEADER,0);
+    	curl_setopt($ch, CURLOPT_URL, $url);
+    	curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);//1不直接打印，0直接打印
+
+    	curl_setopt($ch, CURLOPT_COOKIEFILE,$cookie_file);
+    	$data=curl_exec($ch);//执行
+ 
+    	curl_close($ch);
+    	
     	var_dump($data);
+    	
+    	
+    	
+   
     }
 }
