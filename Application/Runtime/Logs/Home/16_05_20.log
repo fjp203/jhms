@@ -2383,3 +2383,339 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
 
+[ 2016-05-20T17:02:27+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 228 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 246 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2016-05-20T17:05:08+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 228 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 246 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001911s ]
+
+[ 2016-05-20T17:05:14+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 228 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 246 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004022s ]
+
+[ 2016-05-20T17:08:16+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 228 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 236 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003495s ]
+
+[ 2016-05-20T17:08:20+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 228 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 236 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2016-05-20T17:11:22+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 234 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 245 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003799s ]
+
+[ 2016-05-20T17:16:41+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 257 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004159s ]
+
+[ 2016-05-20T17:16:51+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 257 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2016-05-20T17:18:17+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003367s ]
+
+[ 2016-05-20T17:18:22+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2016-05-20T17:18:25+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-05-20T17:18:29+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2016-05-20T17:18:35+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2016-05-20T17:18:54+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003902s ]
+
+[ 2016-05-20T17:20:39+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003978s ]
+
+[ 2016-05-20T17:20:44+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003002s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2016-05-20T17:20:49+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2016-05-20T17:21:02+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003132s ]
+
+[ 2016-05-20T17:21:10+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2016-05-20T17:21:14+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-05-20T17:21:16+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2016-05-20T17:22:38+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003658s ]
+
+[ 2016-05-20T17:25:49+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 201 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+
+[ 2016-05-20T17:25:50+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 201 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006186s ]
+
+[ 2016-05-20T17:26:01+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 201 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-05-20T17:26:13+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 201 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+

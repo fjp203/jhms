@@ -174,3 +174,39 @@ function myfunction($a,$b)
 	return ($a>$b)?1:-1;
 }
 
+function getPar($id){
+
+	$id="NTAwMzMx";
+	$cookie="ASPSESSIONIDCAQDCBTR=OFDHBOFDPNNBHHFKJNELEJHK; ASPSESSIONIDSQABCDTQ=JNLOLGGDPFJPCEDELHGIKKAD; AJSTAT_ok_pages=32; AJSTAT_ok_times=3; a0402_pages=32; a0402_times=3; Hm_lvt_6c1a81e7deb77ce536977738372f872a=1463465650,1463714342,1463726689,1463735392; Hm_lpvt_6c1a81e7deb77ce536977738372f872a=1463735415; clcp%5Flist=500331%7C500483%7C500328%7C460033%7C494065%7C500817%7C506458%7C198214%7C481174%7C";
+	 
+	 
+	$headers['Accept'] = 'text/html';
+	$headers['Accept-Encoding'] = 'gzip, deflate, sdch';
+	$headers['Accept-Language'] = 'zh-CN,zh;q=0.8';
+	$headers['Connection'] = 'keep-alive';
+	$headers['Host'] = 'www.chinacar.com.cn';
+	$headers['Referer'] = 'http://www.chinacar.com.cn/ggcx_new/search_view.asp?id='.$id;
+	$headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36';
+	$headers['X-Requested-With'] = 'XMLHttpRequest';
+	$headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
+	
+	$headerArr = array();
+	foreach( $headers as $n => $v ) {
+		$headerArr[] = $n .':' . $v;
+	}
+	$ch = curl_init();
+	$url = "http://www.chinacar.com.cn/ggcx_new/search_param.asp?id=".$id;
+	curl_setopt($ch, CURLOPT_COOKIEFILE,$cookie);
+	curl_setopt ($ch, CURLOPT_HTTPHEADER , $headerArr );  //构造IP
+	curl_setopt($ch, CURLOPT_HTTPHEADER,1);
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);//1不直接打印，0直接打印
+	
+	 
+	$data=curl_exec($ch);//执行
+	$data=iconv('gbk', 'utf-8', $data);
+	curl_close($ch);
+	 
+	return $data;
+	
+}
