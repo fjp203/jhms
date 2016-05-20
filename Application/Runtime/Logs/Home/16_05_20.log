@@ -1,0 +1,1952 @@
+[ 2016-05-20T08:59:28+08:00 ] 127.0.0.1 /jhms/home/index/zclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018839s ]
+ERR: 非法操作:zclist
+
+[ 2016-05-20T08:59:38+08:00 ] 127.0.0.1 /jhms/home/index/zclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+ERR: 非法操作:zclist
+
+[ 2016-05-20T08:59:42+08:00 ] 127.0.0.1 /jhms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.049447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.051161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.051490s ]
+
+[ 2016-05-20T08:59:50+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:1.8989s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.1593s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.3022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2016-05-20T08:59:50+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-05-20T08:59:51+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002154s ]
+
+[ 2016-05-20T09:00:08+08:00 ] 127.0.0.1 /jhms/Home/Index/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0167s ]
+SQL: DELETE FROM `think_zpjh` WHERE ( 1 ) [ RunTime:0.0871s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','101','2016-计生(军)0042-002','S2110LH4522B7J08J','9','GG003306-GG003314','Z2_1','','JZ11241102011','TL Z0','SX2110A型越野二类底盘/斯太尔加长驾驶室/军绿色/WD415.21发动机国产泵/F7/200L油箱/12.5R20轮胎/后悬1420mm//7DS90B/越野轮胎/驾驶室内带一套枪架/具体见2012(军协议)-142换1/由总装驻西安地区军代室军检[]{}','Z2','Z2','2016/05/25','2016/06/13','Z2F16042036','SQ2016-129','奥龙','斯太尔加长驾驶室','是','','V_1','V_1','','2016/05/18 13:44:13','2016/05/18 20:10:27','10352','','','','') [ RunTime:0.2448s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','102','2016-计生0281-127','S4256GR384W21K462','1','GG003315','Z2_2','100399207','驾外购','DZ96259510762','SX4256GR384T牵引车二类/太空蓝金属漆/WP10NG336E40_CNG/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD160TA-铝壳-无取力器/13T MAN单级减速桥-4.111///12R22.5国产无内胎///后120L×8-单侧加气-快插式（NGV1）//国产四通道ABS/天行健智行版//电动空调//////普通50鞍座/MAN5.5T盘式制动前轴/////电动摇窗机////天然气排气管前置带尾气后处理(带防火帽）//危险品运输车/发动机ECU限速/危险标志牌1个/2KG灭火器1个/危险警示灯1个/底盘版型轻量化版/车贷管理/出具SX4256GR384T整车合格证（WP10NG336E40/整备质量:9400/准牵引质量:38000/准乘人数:2/12R22.5）铭牌，VIN/出具发动机合格证/最高车速不超过78公里/小时&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/06','Z2F160510039920701','E-16-0670','M3000','太空蓝金属漆','是','','V_1','V_2','','2016/05/18 18:00:27','2016/05/18 20:10:27','10352','增加DC96259563325//      DC15221160762','0000324830/','','') [ RunTime:0.0958s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','103','2016-计生0285-083','S4256NT279W21W461','1','GG003316','Z2_3','100399427','DZ13241103264','DZ95259511349','SX4256NT279牵引车二类/珠光红金属漆/WP12.375E40/变速器/F3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铁壳-无取力器/13T MAN双级减速桥-4.266///12R22.5国产无内胎///400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端//电控自动恒温空调//////轻量化90鞍座//////电动摇窗机/中控锁（带遥控器）///////底盘版型轻量化版/车贷管理/出具SX4256NR2791整车合格证（WP12.375E40/整备质量:7300/准牵引质量:38500/准乘人数:3/12R22.5）铭牌，VIN/车辆一致性证书/[车证分离][]{A}','Z2','N1','2016/05/25','2016/06/02','Z2F160510039942701','S-16-2454','德龙','珠光红金属漆','','','V_2','V_2','','2016/05/19 08:34:20','2016/05/18 20:10:27','10352','调整生产状态,调整信息为：现配置：
+颜色: 珠光钼红金属漆','','','暂停生产') [ RunTime:0.0557s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','104','2016-计生0285-015','S4186HR361W21V458','1','GG003317','Z2_4','100399419','驾外购','DZ96189510581','SX4186HR361牵引车二类/珠光钼红金属漆/WP10.350E40/变速器/新款M3000加长半高顶驾驶室不带顶导流罩//12JSD160T-铁壳-无取力器/13T MAN双级减速桥-4.266///12.00R20子午胎///400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端//电动空调//////普通90鞍座//////电动摇窗机//////其余标配/底盘版型加强版/车贷管理/出具SX4186GR361整车合格证（WP10.350E40/整备质量:6970/准牵引质量:35830/准乘人数:2/12.00R20/鞍座最大允许总质量10835kg/外形尺寸6080*2490*3360）铭牌，VIN/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/06','Z2F160510039941901','S-16-2453','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322770/','','') [ RunTime:0.0337s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','105','2016-计生0285-068','S4256GT279W21V458','10','GG003318-GG003327','Z2_5','100399439','驾外购','DZ96259510282','SX4256GT279牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铝壳-无取力器/13T MAN单级减速桥-3.7/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/550L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/中控锁（带遥控器）/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/无车贷/出具SX4256GR279整车合格证（WP12.375E40/整备质量:7200/准牵引质量:38600/准乘人数:2/12R22.5）铭牌，VIN//[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/02','Z2F160510039943901','HB-16-1101','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000323330/','','') [ RunTime:0.0138s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','106','2016-计生0285-063','S4256GT279W21V458','1','GG003328','Z2_6','100399454','驾外购','DZ96259510282','SX4256GT279牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA+4.111-铝壳-无取力器/13T MAN单级减速桥-4.111/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/550L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/中控锁（带遥控器）/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/车贷管理(德银)/出具SX4256GR279整车合格证（WP12.375E40/整备质量:7200/准牵引质量:38600/准乘人数:3/12R22.5/鞍座最大承载质量17605/外形尺寸6885*2490*3560）铭牌，VIN/在合格证备注栏注明：此车已安装行驶记录仪[常规订单]/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039945401','S-16-2456','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000323150/','','') [ RunTime:0.0626s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','107','2016-计生0285-079','S4256GT324W21V461','1','GG003329','Z2_7','100399456','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铝壳-无取力器/13T MAN单级减速桥-3.7/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/600L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/车贷管理(德银)/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:3/12R22.5）铭牌，VIN/港口牵引车/[常规订单]/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/02','Z2F160510039945601','S-16-2458','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000323170/','','') [ RunTime:0.0321s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','108','2016-计生0285-072','S4256GT324W21V461','1','GG003330','Z2_8','100399375','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180T+3.364-铝壳-无取力器/13T MAN单级减速桥-3.364/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/无车贷/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5）铭牌，VIN/随车出具车辆一致性证书[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039937501','S-16-2442','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322030/','','') [ RunTime:0.0475s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','109','2016-计生0285-073','S4256GT324W21V461','1','GG003331','Z2_9','100399374','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180T+3.364-铝壳-无取力器/13T MAN单级减速桥-3.364/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/600L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/无车贷/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5）铭牌，VIN/随车出具车辆一致性证书[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039937401','S-16-2444','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322032/','','') [ RunTime:0.0464s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','110','2016-计生0285-080','S4256GT324W21V461','2','GG003332-GG003333','Z2_10','100399407','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铝壳-无取力器/13T MAN单级减速桥-3.7/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/600L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/车贷管理/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5国产无内胎）铭牌，VIN/合格证备注栏中注明此车已安装行车记录仪、随车发放完整性第二部分一致性证明书、照片、拓印膜/合格证与一致性证书上外廓外形尺寸均为（长*宽*高）mm6735×2490×3560合格证与一致性证书上最大允许承载总质量kg均为16005[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039940701','S-16-2447','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322711/','','') [ RunTime:0.0270s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','111','2016-计生0282-032','S4256GT324W21V461','1','GG003334','Z2_11','100399326','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铁壳-QH70/13T MAN单级减速桥-4.111///12R22.5国产无内胎///400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端//电动空调//////轻量化90鞍座//////电动摇窗机///////散装罐运输/底盘版型轻量化版/车贷管理(德银)/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5/外廓尺寸：6735×2490×3560 ）铭牌，VIN//出具发动机合格证/[车证分离][]{C}','Z2','WG','2016/05/25','2016/05/31','Z2F160510039932601','H-16-1113','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/16 18:01:15','2016/05/18 20:10:27','10352','','0000321732/','','') [ RunTime:0.0983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002830s ]
+
+[ 2016-05-20T09:00:08+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002457s ]
+
+[ 2016-05-20T09:01:11+08:00 ] 127.0.0.1 /jhms/Home/Index/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0210s ]
+SQL: DELETE FROM `think_zpjh` WHERE ( 1 ) [ RunTime:0.1639s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','101','2016-计生(军)0042-002','S2110LH4522B7J08J','9','GG003306-GG003314','Z2_1','','JZ11241102011','TL Z0','SX2110A型越野二类底盘/斯太尔加长驾驶室/军绿色/WD415.21发动机国产泵/F7/200L油箱/12.5R20轮胎/后悬1420mm//7DS90B/越野轮胎/驾驶室内带一套枪架/具体见2012(军协议)-142换1/由总装驻西安地区军代室军检[]{}','Z2','Z2','2016/05/25','2016/06/13','Z2F16042036','SQ2016-129','奥龙','斯太尔加长驾驶室','是','','V_1','V_1','','2016/05/18 13:44:13','2016/05/18 20:10:27','10352','','','','') [ RunTime:0.0649s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','102','2016-计生0281-127','S4256GR384W21K462','1','GG003315','Z2_2','100399207','驾外购','DZ96259510762','SX4256GR384T牵引车二类/太空蓝金属漆/WP10NG336E40_CNG/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD160TA-铝壳-无取力器/13T MAN单级减速桥-4.111///12R22.5国产无内胎///后120L×8-单侧加气-快插式（NGV1）//国产四通道ABS/天行健智行版//电动空调//////普通50鞍座/MAN5.5T盘式制动前轴/////电动摇窗机////天然气排气管前置带尾气后处理(带防火帽）//危险品运输车/发动机ECU限速/危险标志牌1个/2KG灭火器1个/危险警示灯1个/底盘版型轻量化版/车贷管理/出具SX4256GR384T整车合格证（WP10NG336E40/整备质量:9400/准牵引质量:38000/准乘人数:2/12R22.5）铭牌，VIN/出具发动机合格证/最高车速不超过78公里/小时&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/06','Z2F160510039920701','E-16-0670','M3000','太空蓝金属漆','是','','V_1','V_2','','2016/05/18 18:00:27','2016/05/18 20:10:27','10352','增加DC96259563325//      DC15221160762','0000324830/','','') [ RunTime:0.0953s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','103','2016-计生0285-083','S4256NT279W21W461','1','GG003316','Z2_3','100399427','DZ13241103264','DZ95259511349','SX4256NT279牵引车二类/珠光红金属漆/WP12.375E40/变速器/F3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铁壳-无取力器/13T MAN双级减速桥-4.266///12R22.5国产无内胎///400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端//电控自动恒温空调//////轻量化90鞍座//////电动摇窗机/中控锁（带遥控器）///////底盘版型轻量化版/车贷管理/出具SX4256NR2791整车合格证（WP12.375E40/整备质量:7300/准牵引质量:38500/准乘人数:3/12R22.5）铭牌，VIN/车辆一致性证书/[车证分离][]{A}','Z2','N1','2016/05/25','2016/06/02','Z2F160510039942701','S-16-2454','德龙','珠光红金属漆','','','V_2','V_2','','2016/05/19 08:34:20','2016/05/18 20:10:27','10352','调整生产状态,调整信息为：现配置：
+颜色: 珠光钼红金属漆','','','暂停生产') [ RunTime:0.1820s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','104','2016-计生0285-015','S4186HR361W21V458','1','GG003317','Z2_4','100399419','驾外购','DZ96189510581','SX4186HR361牵引车二类/珠光钼红金属漆/WP10.350E40/变速器/新款M3000加长半高顶驾驶室不带顶导流罩//12JSD160T-铁壳-无取力器/13T MAN双级减速桥-4.266///12.00R20子午胎///400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端//电动空调//////普通90鞍座//////电动摇窗机//////其余标配/底盘版型加强版/车贷管理/出具SX4186GR361整车合格证（WP10.350E40/整备质量:6970/准牵引质量:35830/准乘人数:2/12.00R20/鞍座最大允许总质量10835kg/外形尺寸6080*2490*3360）铭牌，VIN/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/06','Z2F160510039941901','S-16-2453','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322770/','','') [ RunTime:0.1902s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','105','2016-计生0285-068','S4256GT279W21V458','10','GG003318-GG003327','Z2_5','100399439','驾外购','DZ96259510282','SX4256GT279牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铝壳-无取力器/13T MAN单级减速桥-3.7/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/550L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/中控锁（带遥控器）/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/无车贷/出具SX4256GR279整车合格证（WP12.375E40/整备质量:7200/准牵引质量:38600/准乘人数:2/12R22.5）铭牌，VIN//[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/02','Z2F160510039943901','HB-16-1101','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000323330/','','') [ RunTime:0.1031s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','106','2016-计生0285-063','S4256GT279W21V458','1','GG003328','Z2_6','100399454','驾外购','DZ96259510282','SX4256GT279牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA+4.111-铝壳-无取力器/13T MAN单级减速桥-4.111/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/550L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/中控锁（带遥控器）/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/车贷管理(德银)/出具SX4256GR279整车合格证（WP12.375E40/整备质量:7200/准牵引质量:38600/准乘人数:3/12R22.5/鞍座最大承载质量17605/外形尺寸6885*2490*3560）铭牌，VIN/在合格证备注栏注明：此车已安装行驶记录仪[常规订单]/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039945401','S-16-2456','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000323150/','','') [ RunTime:0.1696s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','107','2016-计生0285-079','S4256GT324W21V461','1','GG003329','Z2_7','100399456','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铝壳-无取力器/13T MAN单级减速桥-3.7/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/600L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/车贷管理(德银)/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:3/12R22.5）铭牌，VIN/港口牵引车/[常规订单]/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/02','Z2F160510039945601','S-16-2458','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000323170/','','') [ RunTime:0.1462s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','108','2016-计生0285-072','S4256GT324W21V461','1','GG003330','Z2_8','100399375','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180T+3.364-铝壳-无取力器/13T MAN单级减速桥-3.364/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/无车贷/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5）铭牌，VIN/随车出具车辆一致性证书[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039937501','S-16-2442','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322030/','','') [ RunTime:0.2128s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','109','2016-计生0285-073','S4256GT324W21V461','1','GG003331','Z2_9','100399374','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180T+3.364-铝壳-无取力器/13T MAN单级减速桥-3.364/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/600L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/无车贷/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5）铭牌，VIN/随车出具车辆一致性证书[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039937401','S-16-2444','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322032/','','') [ RunTime:0.0492s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','110','2016-计生0285-080','S4256GT324W21V461','2','GG003332-GG003333','Z2_10','100399407','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铝壳-无取力器/13T MAN单级减速桥-3.7/少片簧前悬架/少片簧后悬架/12R22.5国产无内胎/国产转向机/850×270(8+4)/600L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端/165Ah普通蓄电池/电动空调/国产离合器/手动翻转/新M3000公路用车保险杠/分体式挡泥板/左前牵引销/轻量化90鞍座/MAN5.5T前轴///普通侧置空滤器/铝水箱/电动摇窗机/无中控锁/空气主座椅/双卧铺/普通排气/杆式后视镜（M3000)//底盘版型：轻量化版/车贷管理/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5国产无内胎）铭牌，VIN/合格证备注栏中注明此车已安装行车记录仪、随车发放完整性第二部分一致性证明书、照片、拓印膜/合格证与一致性证书上外廓外形尺寸均为（长*宽*高）mm6735×2490×3560合格证与一致性证书上最大允许承载总质量kg均为16005[常规订单]&nbsp;/[车证分离][]{A}','Z2','WG','2016/05/25','2016/06/01','Z2F160510039940701','S-16-2447','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/17 17:45:08','2016/05/18 20:10:27','10352','','0000322711/','','') [ RunTime:0.0959s ]
+SQL: INSERT INTO `think_zpjh` (`zpjh`,`xh`,`sjjhh`,`wlbm`,`sl`,`lshqj`,`xxh`,`ddh`,`csh`,`cjh`,`jhms`,`zpdd`,`nsdd`,`zprq`,`rkrq`,`rwh`,`htxh`,`cl`,`ys`,`tsc`,`zdjj`,`bjbbh`,`sjbbh`,`fjzt`,`cjrq`,`fbrq`,`fbr`,`tznr`,`sjbz`,`bz`,`xdxyzt`) VALUES ('2016-装配0104','111','2016-计生0282-032','S4256GT324W21V461','1','GG003334','Z2_11','100399326','驾外购','DZ96259510862','SX4256GT324牵引车二类/珠光钼红金属漆/WP12.375E40/变速器/新款M3000加长高顶驾驶室不带顶侧导流罩//12JSD180TA-铁壳-QH70/13T MAN单级减速桥-4.111///12R22.5国产无内胎///400L铝合金油箱/国产四通道ABS/天行健智雅版BD车载终端//电动空调//////轻量化90鞍座//////电动摇窗机///////散装罐运输/底盘版型轻量化版/车贷管理(德银)/出具SX4256GR324整车合格证（WP12.375E40/整备质量:8800/准牵引质量:40000/准乘人数:2/12R22.5/外廓尺寸：6735×2490×3560 ）铭牌，VIN//出具发动机合格证/[车证分离][]{C}','Z2','WG','2016/05/25','2016/05/31','Z2F160510039932601','H-16-1113','M3000','珠光钼红金属漆','','','V_1','V_1','','2016/05/16 18:01:15','2016/05/18 20:10:27','10352','','0000321732/','','') [ RunTime:0.0611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2016-05-20T09:01:11+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005386s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2016-05-20T09:56:41+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025083s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:1.5628s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:1.0448s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0820s ]
+
+[ 2016-05-20T10:00:39+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0195s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: arr E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: result1 E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: result2 E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 190 行.
+NOTIC: [8] Undefined variable: arr E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023497s ]
+
+[ 2016-05-20T10:06:37+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003197s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0478s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: result1 E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: result2 E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 190 行.
+NOTIC: [8] Undefined variable: arr E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 191 行.
+NOTIC: [8] Undefined variable: b E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2016-05-20T10:10:44+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0387s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: a E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028196s ]
+
+[ 2016-05-20T10:11:22+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0110s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017023s ]
+
+[ 2016-05-20T10:11:32+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0120s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2016-05-20T10:18:34+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0108s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0034s ]
+NOTIC: [8] Array to string conversion E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Undefined variable: Array E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 180 行.
+NOTIC: [2] array_udiff() [<a href='function.array-udiff'>function.array-udiff</a>]: Argument #2 is not an array E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 180 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-05-20T10:18:54+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0096s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2016-05-20T10:20:04+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0482s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2016-05-20T10:20:43+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0115s ]
+SQL: SELECT `tarid` FROM `think_zclist`  [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004291s ]
+
+[ 2016-05-20T10:22:07+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0330s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006139s ]
+
+[ 2016-05-20T10:22:25+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0191s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004416s ]
+
+[ 2016-05-20T10:22:45+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0137s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2016-05-20T10:24:36+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0094s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002777s ]
+
+[ 2016-05-20T10:31:44+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2016-05-20T10:36:00+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0118s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'MzI3MjQx111' in 'where clause'
+
+[ 2016-05-20T10:38:21+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0102s ]
+SQL: DELETE FROM `think_zclist` WHERE `tarid` = 'MzI3MjQx111' [ RunTime:0.1871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003636s ]
+
+[ 2016-05-20T11:06:24+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0116s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0098s ]
+NOTIC: [8] Undefined variable: MzI3MjQx E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 202 行.
+ERR: 非法数据对象！
+
+[ 2016-05-20T11:06:55+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0107s ]
+SQL: INSERT INTO `think_zclist` () VALUES () [ RunTime:0.1189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005824s ]
+
+[ 2016-05-20T11:07:18+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0115s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0099s ]
+SQL: DELETE FROM `think_zclist` WHERE `tarid` = 'MzQ1NTk5是2' [ RunTime:0.0287s ]
+SQL: DELETE FROM `think_zclist` WHERE `tarid` = '' [ RunTime:0.0497s ]
+SQL: INSERT INTO `think_zclist` () VALUES () [ RunTime:0.0407s ]
+SQL: INSERT INTO `think_zclist` () VALUES () [ RunTime:0.0597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003581s ]
+
+[ 2016-05-20T11:08:45+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0114s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0101s ]
+SQL: DELETE FROM `think_zclist` WHERE `tarid` = '' [ RunTime:0.0474s ]
+SQL: DELETE FROM `think_zclist` WHERE `tarid` = '' [ RunTime:0.0041s ]
+SQL: INSERT INTO `think_zclist` () VALUES () [ RunTime:0.0598s ]
+SQL: INSERT INTO `think_zclist` () VALUES () [ RunTime:0.0499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004375s ]
+
+[ 2016-05-20T11:10:20+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0092s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2016-05-20T11:11:10+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0091s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002361s ]
+
+[ 2016-05-20T11:12:09+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0098s ]
+
+[ 2016-05-20T11:12:24+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0107s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2016-05-20T11:15:35+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0101s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2016-05-20T11:17:40+08:00 ] 127.0.0.1 /jhms/home/index/ggUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `think_zclist` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0102s ]
+SQL: SELECT * FROM `think_zclist`  [ RunTime:0.0116s ]
+SQL: INSERT INTO `think_zclist` (`pic`,`zwpp`,`clxh`,`clmc`,`mz`,`ry`,`hb`,`dpsb`,`pc`,`zs`,`zj`,`fdjxh`,`fdjcs`,`rlzl`,`wxcc`,`edzzl`,`ckbj`,`tarid`,`tarid_nobase`,`invalid`,`tarpic`) VALUES ('http://img.chinacar.com.cn/spic/p3p31493960.jpg','陕汽牌','SX5196TCY','采油车','否','否','否','陕汽牌','253','3','4325+1350,4600+1350','WP10.270E40|WP10.300E40','潍柴动力股份有限公司|潍柴动力股份有限公司','柴油','9500×2500×3930','','','MzQ1NTk5','345599','0','/spic/p3p31493960.jpg') [ RunTime:0.0810s ]
+SQL: INSERT INTO `think_zclist` (`pic`,`zwpp`,`clxh`,`clmc`,`mz`,`ry`,`hb`,`dpsb`,`pc`,`zs`,`zj`,`fdjxh`,`fdjcs`,`rlzl`,`wxcc`,`edzzl`,`ckbj`,`tarid`,`tarid_nobase`,`invalid`,`tarpic`) VALUES ('http://img.chinacar.com.cn/spic/p0n81945950.jpg','陕汽牌','SX1166MR414TL','载货汽车','否','否','否','陕汽牌','250','3','4075+1400','WP10NG280E40|WP10NG300E40|WP10NG336E40|SC9DT280Q4','潍柴动力西港(潍坊)新能源发动机有限公司|潍柴动力西港(潍坊)新能源发动机有限公司|潍柴动力西港(潍坊)新能源发动机有限公司|上海柴油机股份有限公司','LNG','9385,9085×2490×3430,3170','7965,7900','','MzI3MjQx','327241','0','/spic/p0n81945950.jpg') [ RunTime:0.0434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2016-05-20T11:18:33+08:00 ] 127.0.0.1 /jhms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.041446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.041641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2016-05-20T11:18:36+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0825s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.1488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2016-05-20T11:18:37+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+
+[ 2016-05-20T11:18:37+08:00 ] 127.0.0.1 /jhms/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `think_zpjh` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `think_zpjh`  [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zpjh` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2016-05-20T13:44:32+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020405s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041079s ]
+
+[ 2016-05-20T13:44:33+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2016-05-20T13:44:41+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005783s ]
+
+[ 2016-05-20T13:45:20+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003631s ]
+
+[ 2016-05-20T13:54:18+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2016-05-20T13:54:21+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003344s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2016-05-20T13:54:24+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2016-05-20T13:54:53+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001802s ]
+
+[ 2016-05-20T13:57:33+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2016-05-20T14:00:27+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003684s ]
+
+[ 2016-05-20T14:00:37+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004470s ]
+
+[ 2016-05-20T14:01:53+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-05-20T14:01:53+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2016-05-20T14:02:10+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-05-20T14:02:53+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001831s ]
+
+[ 2016-05-20T14:29:04+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004747s ]
+
+[ 2016-05-20T14:29:04+08:00 ] 127.0.0.1 /jhms/home/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+ERR: 非法操作:css
+
+[ 2016-05-20T14:29:04+08:00 ] 127.0.0.1 /jhms/home/index/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:29:04+08:00 ] 127.0.0.1 /jhms/home/index/js/search_view.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:29:05+08:00 ] 127.0.0.1 /jhms/home/index/js/ToolTip.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:29:06+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+
+[ 2016-05-20T14:29:06+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-05-20T14:29:06+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-05-20T14:29:06+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003523s ]
+
+[ 2016-05-20T14:29:16+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004833s ]
+
+[ 2016-05-20T14:29:16+08:00 ] 127.0.0.1 /jhms/home/index/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002524s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:29:16+08:00 ] 127.0.0.1 /jhms/home/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: 非法操作:css
+
+[ 2016-05-20T14:29:16+08:00 ] 127.0.0.1 /jhms/home/index/js/search_view.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:29:16+08:00 ] 127.0.0.1 /jhms/home/index/js/ToolTip.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:29:17+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+
+[ 2016-05-20T14:29:17+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-05-20T14:29:17+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-05-20T14:29:17+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010064s ]
+
+[ 2016-05-20T14:35:53+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005533s ]
+
+[ 2016-05-20T14:35:53+08:00 ] 127.0.0.1 /jhms/home/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+ERR: 非法操作:css
+
+[ 2016-05-20T14:35:53+08:00 ] 127.0.0.1 /jhms/home/index/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:35:53+08:00 ] 127.0.0.1 /jhms/home/index/js/search_view.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:35:54+08:00 ] 127.0.0.1 /jhms/home/index/js/ToolTip.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003812s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:35:54+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-05-20T14:35:54+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+
+[ 2016-05-20T14:35:54+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-05-20T14:35:54+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-05-20T14:35:55+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-05-20T14:35:56+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-05-20T14:35:56+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+
+[ 2016-05-20T14:35:56+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+ERR: 非法操作:css
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/js/search_view.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/js/ToolTip.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002566s ]
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003621s ]
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002882s ]
+
+[ 2016-05-20T14:36:17+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-05-20T14:36:18+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+
+[ 2016-05-20T14:36:18+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-05-20T14:36:18+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+
+[ 2016-05-20T14:36:18+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-05-20T14:36:26+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003388s ]
+
+[ 2016-05-20T14:46:22+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006376s ]
+
+[ 2016-05-20T14:46:22+08:00 ] 127.0.0.1 /jhms/home/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+ERR: 非法操作:css
+
+[ 2016-05-20T14:46:22+08:00 ] 127.0.0.1 /jhms/home/index/js/search_view.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:46:22+08:00 ] 127.0.0.1 /jhms/home/index/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002852s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/js/ToolTip.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+ERR: 非法操作:js
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/collect.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_tc_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003324s ]
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_home_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-05-20T14:46:23+08:00 ] 127.0.0.1 /jhms/home/index/images/nav_fd_bt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+
+[ 2016-05-20T14:47:07+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004957s ]
+
+[ 2016-05-20T14:54:05+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004632s ]
+
+[ 2016-05-20T14:54:08+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003770s ]
+
+[ 2016-05-20T14:54:35+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2016-05-20T15:07:55+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+NOTIC: [8] Undefined variable: cookie_file E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007380s ]
+
+[ 2016-05-20T15:08:25+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8] Undefined variable: post_fields E:\xampp\htdocs\jhms\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2016-05-20T15:20:28+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025400s ]
+
