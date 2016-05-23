@@ -2719,3 +2719,24 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
 
+[ 2016-05-20T17:29:03+08:00 ] 127.0.0.1 /jhms/home/index/zclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+ERR: 非法操作:zclist
+
+[ 2016-05-20T17:29:11+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 201 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005531s ]
+
