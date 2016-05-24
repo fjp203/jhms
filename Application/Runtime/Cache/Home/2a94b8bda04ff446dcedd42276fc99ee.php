@@ -4,16 +4,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=">
 		
 		
-      <!--   <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.3.3/themes/default/easyui.css" />
-        <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.3.3/themes/icon.css" />
-        <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.3.3/themes/icons/icon-all.css" />
+      <!--   <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.3.3/themes/default/easyui.css" />
+        <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.3.3/themes/icon.css" />
+        <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.3.3/themes/icons/icon-all.css" />
          -->
-		<link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.4.4/themes/default/easyui.css" />
-		<link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.4.4/themes/icon.css" />
-        <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.4.4/themes/icons/icon-all.css" />
+		<link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.4.4/themes/default/easyui.css" />
+		<link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.4.4/themes/icon.css" />
+        <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.4.4/themes/icons/icon-all.css" />
 		
-		<link rel="stylesheet" href="/jhms/Public/Huploadify-master/Huploadify.css" />
-        <link rel="stylesheet" href="/jhms/Public/css/mystyle.css" />
+		<link rel="stylesheet" href="/JHMS/Public/Huploadify-master/Huploadify.css" />
+        <link rel="stylesheet" href="/JHMS/Public/css/mystyle.css" />
         <title>计划描述转车辆信息</title>
     </head>
     <body id="cc" class="easyui-layout">
@@ -95,25 +95,25 @@
             </div>
             <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#add').dialog('close')">取消</a>
         </div>
-       <!--  <script src="/jhms/Public/jquery-easyui-1.3.3/jquery.min.js">
+       <!--  <script src="/JHMS/Public/jquery-easyui-1.3.3/jquery.min.js">
         </script>
-        <script src="/jhms/Public/jquery-easyui-1.3.3/jquery.easyui.min.js">     
+        <script src="/JHMS/Public/jquery-easyui-1.3.3/jquery.easyui.min.js">     
         </script>
-        <script src="/jhms/Public/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js">
+        <script src="/JHMS/Public/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js">
         </script> -->
-		  <script src="/jhms/Public/jquery-easyui-1.4.4/jquery.min.js">
+		  <script src="/JHMS/Public/jquery-easyui-1.4.4/jquery.min.js">
         </script>
-        <script src="/jhms/Public/jquery-easyui-1.4.4/jquery.easyui.min.js">     
+        <script src="/JHMS/Public/jquery-easyui-1.4.4/jquery.easyui.min.js">     
         </script>
-        <script src="/jhms/Public/jquery-easyui-1.4.4/locale/easyui-lang-zh_CN.js">
+        <script src="/JHMS/Public/jquery-easyui-1.4.4/locale/easyui-lang-zh_CN.js">
         </script>
 		
 		
 		<!-- jquery-easyui-1.4.4 -->
-        <script src="/jhms/Public/Huploadify-master/jquery.Huploadify.js">
+        <script src="/JHMS/Public/Huploadify-master/jquery.Huploadify.js">
         </script>
-		<script src="/jhms/Public/app/angular.min.js"></script>
-        <script src="/jhms/Public/app/zpjs.js"></script>
+		<script src="/JHMS/Public/app/angular.min.js"></script>
+        <script src="/JHMS/Public/app/zpjs.js"></script>
 		 
         
     </body>
