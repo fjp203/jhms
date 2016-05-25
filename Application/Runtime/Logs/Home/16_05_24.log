@@ -1216,3 +1216,237 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002226s ]
 
+[ 2016-05-24T16:41:36+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:42:08+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:42:11+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:42:12+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:42:26+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:50:20+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:50:40+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:50:45+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:50:52+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:51:04+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/\Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:51:27+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+NOTIC: [2] require(./Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:51:37+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:04+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP/\Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:14+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP\Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:17+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP\Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:20+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+NOTIC: [2] require(E:\xampp\htdocs\jhms\ThinkPHP\Lib\Util\simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:41+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+NOTIC: [2] require(E:/xampp/htdocs/jhms\/ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:43+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+NOTIC: [2] require(E:/xampp/htdocs/jhms\/ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:50+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [2] require(E:/xampp/htdocs/jhms/ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:54+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [2] require(E:/xampp/htdocs/jhms/ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:55+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+NOTIC: [2] require(E:/xampp/htdocs/jhms/ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:52:56+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+NOTIC: [2] require(E:/xampp/htdocs/jhms/ThinkPHP/Lib/Util/simple_html_dom.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 206 行.
+
+[ 2016-05-24T16:53:04+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:53:16+08:00 ] 127.0.0.1 /jhms/home/index/gginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 192 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\xampp\htdocs\jhms\Application\Home\Common\function.php 第 198 行.
+
+[ 2016-05-24T16:56:00+08:00 ] 127.0.0.1 /jhms/home/index/showw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.039749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039970s ]
+

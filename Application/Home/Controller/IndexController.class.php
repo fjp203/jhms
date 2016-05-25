@@ -166,15 +166,18 @@ $data['xdxyzt'] = $arr[$i][30];
     	}
     }
     //公告更新
+    
+ 
     public function ggUpdate(){
     	$zclist = M("zclist");
+    	$zcData=M("zcdata");
      	$num=count($zclist->select());
-    
+     	$will=allZc();
      	//判断是否有数据，有则检查更新，没有直接写入
      	if($num>0){
 
-     		$will=allZc();
-$taridData=i_array_column($zclist->select(), 'tarid');
+     		
+$taridData=i_array_column($zclist->select(), 'tarid');//返回input数组中键值为column_key的列,
 $taridWill=i_array_column($will, 'tarid');
     	
 $result=array_udiff($taridData,$taridWill,"myfunction"); //多出的  	
@@ -191,29 +194,38 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
     				foreach ($result as $val){
     					$map['tarid'] = $val;
     					$re=$zclist->where($map)->delete();
-//     					if($re){
-//     						echo "删除".$val;
-//     					}
+    					$re1=$zcData->where($map)->delete();	
     				}
     			}
     			
     			if($result1){
     				foreach ($result1 as $key => $val){
     					
-    					$data=$will[$key];
-//     					var_dump($data);
+    					$infoData=$will[$key];
+    					$infoData=parserHtml($val);
+
     					$re=$zclist->data($data)->add();
-//     					if($re){
-//     						echo "添加".$val;
-//     					}
+    					$re1=$zcData->data($infoData)->add();
+
+    				
     				}
     			}
     		}
     	}else{
     		
      		$zclist->addAll($will);
+     		import("Org.Util.simple_html_dom");
+     		$shuju=array();
+     		foreach ($taridWill as $val){
+     			
+     			$data=parserHtml($val);
+     			array_push($shuju,$data);
+     			
+     		}
+//      		var_dump($shuju);
+     		$zclist->addAll($shuju);
      	}
-    	//var_dump(allZc());
+    
     	
     }
     public function gginfo(){
@@ -222,6 +234,7 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
     	
     	//导入PHPExcel类库，因为PHPExcel没有用命名空间，只能inport导入
     	import("Org.Util.simple_html_dom");
+    	
     	$html = str_get_html(getPar($id));//解析html
     	$data['traid']=$id;
     	$data['clmc']=$html->find('td',2)->find('a',0)->innertext;
@@ -333,5 +346,9 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
 
     	
    
+    }
+    public function  test(){
+    	$id="NTAwMzMx";
+    	var_dump(parserHtml($id));
     }
 }

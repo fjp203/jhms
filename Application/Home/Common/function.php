@@ -121,16 +121,7 @@ function allZc(){
 	
 	$data1=iconv('gbk', 'utf-8', $data1);
 	$data1=json_decode($data1,true);
-	
-// 	var_dump($data1);
-	
-// 	$data=$data1['topics'];
-// 	if($data=$zclist->select()){
-// 		echo "一样";
-// 	}else{
-// 		echo "不一样";
-// 	}
-// 	$zclist->addAll($data);
+
 return $data1['topics'];
 }
 
@@ -209,4 +200,83 @@ function getPar($id){
 	 
 	return $data;
 	
+}
+
+function parserHtml($id){
+	import("Org.Util.simple_html_dom");
+
+	$html = str_get_html(getPar($id));//解析html
+	$data['traid']=$id;
+	$data['clmc']=$html->find('td',2)->find('a',0)->innertext;
+	$data['cllx']=$html->find('td',4)->find('span',0)->find('a',0)->innertext;
+	$data['zzd']=$html->find('td',6)->innertext;
+	$data['pzlx']=$html->find('td',8)->find('span',0)->find('a',0)->innertext;
+	$data['pc']=$html->find('td',10)->innertext;
+	$data['puData']=$html->find('td',12)->innertext;
+	$data['cpId']=$html->find('td',14)->find('span',0)->innertext;
+	$data['mlid']=$html->find('td',16)->innertext;
+	$data['chpp']=$html->find('td',18)->find('a',0)->innertext;
+	$data['enpp']=$html->find('td',20)->innertext;
+	$data['ggcx']=$html->find('td',22)->innertext;
+	$data['mz']=$html->find('td',24)->innertext;
+	$data['qymc']=$html->find('td',26)->innertext;
+	$data['ry']=$html->find('td',28)->innertext;
+	$data['qydz']=$html->find('td',30)->innertext;
+	$data['hb']=$html->find('td',32)->innertext;
+	$data['mj']=$html->find('td',35)->innertext;
+	$data['mjDate']=$html->find('td',37)->innertext;
+	$data['ggStatus']=$html->find('td',40)->innertext;
+	$data['sDate']=$html->find('td',42)->innertext;
+	$data['statusSm']=$html->find('td',44)->innertext;
+	$data['log']=$html->find('td',46)->innertext;
+	$data['cc']=$html->find('td',49)->find('span',0)->innertext;
+	$data['hxcc']=$html->find('td',51)->find('span',0)->innertext;
+	$data['zzl']=$html->find('td',53)->find('span',0)->innertext;
+	$data['zzllyxs']=$html->find('td',55)->innertext;
+	$data['zbzl']=$html->find('td',57)->find('span',0)->innertext;
+	$data['edzzl']=$html->find('td',59)->find('span',0)->innertext;
+	$data['gczl']=$html->find('td',61)->innertext;
+	$data['bgaz']=$html->find('td',63)->innertext;
+	$data['jss']=$html->find('td',65)->innertext;
+	$data['qpck']=$html->find('td',67)->innertext;
+	$data['edzk']=$html->find('td',69)->innertext;
+	$data['ABS']=$html->find('td',71)->innertext;
+	$data['jjj']=$html->find('td',73)->innertext;
+	$data['qxhx']=$html->find('td',75)->find('span',0)->innertext;
+	$data['zh']=$html->find('td',77)->innertext;
+	$data['zj']=$html->find('td',79)->find('span',0)->innertext;
+	$data['zs']=$html->find('td',81)->innertext;
+	$data['speed']=$html->find('td',83)->innertext;
+	$data['yh']=$html->find('td',85)->innertext;
+	$data['thps']=$html->find('td',87)->innertext;
+	$data['lts']=$html->find('td',89)->innertext;
+	$data['ltgg']=$html->find('td',91)->innertext;
+	$data['qlj']=$html->find('td',93)->find('span',0)->innertext;
+	$data['hlj']=$html->find('td',95)->find('span',0)->innertext;
+	$data['zdq']=$html->find('td',97)->innertext;
+	$data['zdh']=$html->find('td',99)->innertext;
+	$data['zcq']=$html->find('td',101)->innertext;
+	$data['zch']=$html->find('td',103)->innertext;
+	$data['zdxs']=$html->find('td',105)->innertext;
+	$data['qdfs']=$html->find('td',107)->innertext;
+	$data['cdxs']=$html->find('td',109)->innertext;
+	$data['yh2']=$html->find('td',111)->innertext;
+	$data['vin']=$html->find('td',113)->find('span',0)->innertext;
+	$data['fdj']=$html->find('td',119)->innertext;
+	$data['fdjqy']=$html->find('td',120)->innertext;
+	$data['fdjpl']=$html->find('td',121)->innertext;
+	$data['fdjgl']=$html->find('td',122)->innertext;
+	$data['rlzl']=$html->find('td',125)->innertext;
+	$data['yjbz']=$html->find('td',127)->find('span',0)->innertext;
+	$data['dppfbz']=$html->find('td',129)->innertext;
+	$data['bz']=$html->find('td',131)->innertext;
+	$data['fgbsqy']=$html->find('td',134)->innertext;
+	$data['fgbssb']=$html->find('td',136)->innertext;
+	$data['fgbsxh']=$html->find('td',138)->innertext;
+	//写入数据库
+	
+  
+
+	$html->clear();
+	return 	$data;
 }
