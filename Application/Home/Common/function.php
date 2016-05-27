@@ -202,12 +202,29 @@ function getPar($id){
 	
 }
 
-function parserHtml($id){
-	import("Org.Util.simple_html_dom");
 
-	$html = str_get_html(getPar($id));//解析html
-	$data['traid']=$id;
-	$data['clmc']=$html->find('td',2)->find('a',0)->innertext;
+function fjp203(){
+	$a=import("Org.Util.simple_html_dom");
+// 	require THINK_PATH.'Library/Org/Util/simple_html_dom.class.php';
+// 	require_once THINK_PATH.'Library/Org/Util/simple_html_dom.class.php';
+	$html = new simple_html_dom();
+	$html->load(getPar($id));
+	$a=$html->find('td',2)->find('a',0)->innertext;
+	$html->clear();
+	return $a;
+	
+}
+
+function parserHtml($id){
+ 	$a=import("Org.Util.simple_html_dom");
+//  	require THINK_PATH.'Library/Org/Util/simple_html_dom.class.php';
+	$html = new simple_html_dom();
+
+ 	$html=str_get_html(getPar($id));//解析html
+//  
+ 	$data['traid']=$id;
+ 	
+ 	$data['clmc']=$html->find('td',2)->find('a',0)->innertext;
 	$data['cllx']=$html->find('td',4)->find('span',0)->find('a',0)->innertext;
 	$data['zzd']=$html->find('td',6)->innertext;
 	$data['pzlx']=$html->find('td',8)->find('span',0)->find('a',0)->innertext;
@@ -273,10 +290,8 @@ function parserHtml($id){
 	$data['fgbsqy']=$html->find('td',134)->innertext;
 	$data['fgbssb']=$html->find('td',136)->innertext;
 	$data['fgbsxh']=$html->find('td',138)->innertext;
-	//写入数据库
-	
-  
 
 	$html->clear();
 	return 	$data;
+
 }

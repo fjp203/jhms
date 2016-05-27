@@ -131,7 +131,7 @@ var clumnDg=[[{
     }]];
 
 $('#dg').datagrid({
-    url: 'Home/Index/read',
+    url: app+'Home/Index/read',
     toolbar: '#tool',
     pagination: true,
     fit: true,
@@ -574,4 +574,51 @@ function driver(str){
 return arr[0].d;
 };
 
+function updateGG(){
+	//获得最新公告数据
+	var idRew=new Array();
+	var idOld=new Array();
+	htmlobj=$.ajax({url:app+"Home/Index/idData",async:false});	
+//	console.log(htmlobj);
+	idRew=htmlobj.responseText;
+	htmlobj1=$.ajax({url:app+"Home/Index/idOld",async:false});	
+	idOld=htmlobj1.responseText;
+//	if(idRew==idOld){
+//		alert("same");
+//	}else{
+//		alert("not");
+//	}
+if(idRew!=""){
+	var rewArr=idRew.split(",");
+}else{
+	var rewArr="";
+}
+if(idOld!=""){
+	var OldArr=idOld.split(",");
+}else{
+	var OldArr="";
+}
+	
+if(OldArr.length>0){
+	console.log(OldArr);
+}else{
+//	全盘更新
+//	for(var i=0;i<rewArr.length;i++){
+//		 console.log(rewArr[i]);
+//		}
+	
+	
+	$.ajax({  
+		        type:'post',      
+		        url:app+"Home/Index/add",  
+		        data:{id:rewArr[0]},  
+		         cache:false,  
+		         dataType:'json',  
+		        success:function(data){
+		        	console.log(data);
+		         }  
+		     });  
+	
 
+}
+}

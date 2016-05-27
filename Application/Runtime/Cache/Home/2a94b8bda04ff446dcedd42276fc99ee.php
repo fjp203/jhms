@@ -4,16 +4,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=">
 		
 		
-      <!--   <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.3.3/themes/default/easyui.css" />
-        <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.3.3/themes/icon.css" />
-        <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.3.3/themes/icons/icon-all.css" />
+      <!--   <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.3.3/themes/default/easyui.css" />
+        <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.3.3/themes/icon.css" />
+        <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.3.3/themes/icons/icon-all.css" />
          -->
-		<link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.4.4/themes/default/easyui.css" />
-		<link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.4.4/themes/icon.css" />
-        <link rel="stylesheet" href="/JHMS/Public/jquery-easyui-1.4.4/themes/icons/icon-all.css" />
+		<link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.4.4/themes/default/easyui.css" />
+		<link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.4.4/themes/icon.css" />
+        <link rel="stylesheet" href="/jhms/Public/jquery-easyui-1.4.4/themes/icons/icon-all.css" />
 		
-		<link rel="stylesheet" href="/JHMS/Public/Huploadify-master/Huploadify.css" />
-        <link rel="stylesheet" href="/JHMS/Public/css/mystyle.css" />
+		<link rel="stylesheet" href="/jhms/Public/Huploadify-master/Huploadify.css" />
+        <link rel="stylesheet" href="/jhms/Public/css/mystyle.css" />
         <title>计划描述转车辆信息</title>
     </head>
     <body id="cc" class="easyui-layout">
@@ -75,8 +75,20 @@
 <table id="info"> 
 </table>  
     </div>  
-    <div title="Tab2" data-options="closable:true" style="overflow:auto;padding:20px;display:none;">  
-        tab2   
+    <div title="公告信息" data-options="closable:false" style="overflow:auto;padding:0px;">  
+    
+          <div>
+                
+                        <a href="#" id= "aaa1" class="easyui-linkbutton" onclick='updateGG()' data-options="iconCls:'icon-standard-folder-page',plain:true">手动更新</a>
+                       
+                        
+                       
+            </div>
+    
+    
+    <span>
+        整车：669，二类384，更新日期：2016年5月27日
+    </span>   
     </div>  
     <div title="Tab3" data-options="iconCls:'icon-reload',closable:true" style="padding:20px;display:none;">  
         tab3   
@@ -95,26 +107,32 @@
             </div>
             <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#add').dialog('close')">取消</a>
         </div>
-       <!--  <script src="/JHMS/Public/jquery-easyui-1.3.3/jquery.min.js">
+       <!--  <script src="/jhms/Public/jquery-easyui-1.3.3/jquery.min.js">
         </script>
-        <script src="/JHMS/Public/jquery-easyui-1.3.3/jquery.easyui.min.js">     
+        <script src="/jhms/Public/jquery-easyui-1.3.3/jquery.easyui.min.js">     
         </script>
-        <script src="/JHMS/Public/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js">
+        <script src="/jhms/Public/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js">
         </script> -->
-		  <script src="/JHMS/Public/jquery-easyui-1.4.4/jquery.min.js">
+		  <script src="/jhms/Public/jquery-easyui-1.4.4/jquery.min.js">
         </script>
-        <script src="/JHMS/Public/jquery-easyui-1.4.4/jquery.easyui.min.js">     
+        <script src="/jhms/Public/jquery-easyui-1.4.4/jquery.easyui.min.js">     
         </script>
-        <script src="/JHMS/Public/jquery-easyui-1.4.4/locale/easyui-lang-zh_CN.js">
+        <script src="/jhms/Public/jquery-easyui-1.4.4/locale/easyui-lang-zh_CN.js">
         </script>
 		
 		
 		<!-- jquery-easyui-1.4.4 -->
-        <script src="/JHMS/Public/Huploadify-master/jquery.Huploadify.js">
+        <script src="/jhms/Public/Huploadify-master/jquery.Huploadify.js">
         </script>
-		<script src="/JHMS/Public/app/angular.min.js"></script>
-        <script src="/JHMS/Public/app/zpjs.js"></script>
+		<script src="/jhms/Public/app/angular.min.js"></script>
+	
+      
 		 
+        <script type="text/javascript" charset="utf-8">
         
+        var app = "/jhms/index.php/";
+
+        </script>
+         <script src="/jhms/Public/app/zpjs.js"></script>
     </body>
 </html>

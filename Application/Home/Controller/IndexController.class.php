@@ -167,18 +167,45 @@ $data['xdxyzt'] = $arr[$i][30];
     }
     //公告更新
     
- 
     public function ggUpdate(){
     	$zclist = M("zclist");
     	$zcData=M("zcdata");
      	$num=count($zclist->select());
      	$will=allZc();
+     	$taridData=i_array_column($zclist->select(), 'tarid');//返回input数组中键值为column_key的列,
+     	$taridWill=i_array_column($will, 'tarid');
+     	if($num>0){
+     		
+     	}else{
+     		echo "空的";
+     		
+     		//      		$zclist->addAll($will);
+     		 
+     		$shuju=array();
+     		foreach ($taridWill as $val){
+     			echo $val;
+     			$shuju[]=parserHtml($val);
+     			//       		var_dump($data);
+     			 
+     		}
+     		var_dump($shuju);
+     	}
+     	
+    }
+    public function ggUpdate1(){
+    	$zclist = M("zclist");
+    	$zcData=M("zcdata");
+     	$num=count($zclist->select());
+     	$will=allZc();
      	//判断是否有数据，有则检查更新，没有直接写入
+     	
+     	$taridData=i_array_column($zclist->select(), 'tarid');//返回input数组中键值为column_key的列,
+     	$taridWill=i_array_column($will, 'tarid');
+     	
      	if($num>0){
 
      		
-$taridData=i_array_column($zclist->select(), 'tarid');//返回input数组中键值为column_key的列,
-$taridWill=i_array_column($will, 'tarid');
+
     	
 $result=array_udiff($taridData,$taridWill,"myfunction"); //多出的  	
 $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
@@ -212,18 +239,16 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
     			}
     		}
     	}else{
+    		echo "空的";
     		
      		$zclist->addAll($will);
-     		import("Org.Util.simple_html_dom");
+    	
      		$shuju=array();
+     		
      		foreach ($taridWill as $val){
-     			
-     			$data=parserHtml($val);
-     			array_push($shuju,$data);
-     			
+     			array_push($shuju,parserHtml($val));
      		}
-//      		var_dump($shuju);
-     		$zclist->addAll($shuju);
+       		$zcData->addAll($shuju);
      	}
     
     	
@@ -233,10 +258,12 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
 //     	echo getPar($id);
     	
     	//导入PHPExcel类库，因为PHPExcel没有用命名空间，只能inport导入
-    	import("Org.Util.simple_html_dom");
+    	$a=import("Org.Util.simple_html_dom");
+    	$data['traid']=$id;
+    	
     	
     	$html = str_get_html(getPar($id));//解析html
-    	$data['traid']=$id;
+    	
     	$data['clmc']=$html->find('td',2)->find('a',0)->innertext;
     	$data['cllx']=$html->find('td',4)->find('span',0)->find('a',0)->innertext;
      	$data['zzd']=$html->find('td',6)->innertext;
@@ -347,8 +374,39 @@ $result1=array_udiff($taridWill,$taridData,"myfunction");//要添加的
     	
    
     }
-    public function  test(){
-    	$id="NTAwMzMx";
-    	var_dump(parserHtml($id));
+    public function  idData(){
+    	//获得所有最新id
+  		$will=allZc();    
+     	$taridWill=i_array_column($will, 'tarid');
+     	if(count($taridWill)>0){
+     		echo json_encode($taridWill);
+     	}else{
+     		echo "";
+     	}
+     	
+       	
+
+
     }
+    public function idOld(){
+    	//获得所有原来id
+    	$zclist = M("zclist");
+    	$taridData=i_array_column($zclist->select(), 'tarid');//返回input数组中键值为column_key的列,
+     	 
+     	if(count($taridData)>0){
+     		echo json_encode($taridData); 
+     	}else{
+     		echo "";
+     	}
+}
+public function add(){
+// 添加
+$id=$_POST['id'];
+	$data= parserHtml($id);
+	if(count($data)>0){
+		echo json_encode($data);
+	}else{
+		echo "";
+	}
+}
 }
